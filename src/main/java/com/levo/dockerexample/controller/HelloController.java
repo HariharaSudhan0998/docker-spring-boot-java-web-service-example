@@ -2,7 +2,7 @@ package com.levo.dockerexample.controller;
 
 
 
-import org.springframework.web.bind.annotation.RestController;
+/*import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @RestController
@@ -13,8 +13,8 @@ public class HelloController {
         return " Welcome to Flogile Technologies all!";
     }
     
-}
-/*import java.util.Date;
+}*/
+import java.util.Date;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -29,4 +29,4 @@ public class HelloController {
 		return "docker-java-app is up and running: " + new Date();
 	}
 
-}*/
+}
