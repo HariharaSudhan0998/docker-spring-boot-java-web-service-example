@@ -8,5 +8,12 @@ pipeline {
         echo 'Compile...'
      }
    }
+   
+     stage('package') {
+     steps {
+        sh(script: 'mvn package')
+        echo 'Package...'
+     }
+   }
   }
 }
